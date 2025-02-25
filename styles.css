@@ -1,0 +1,291 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    margin: 0;
+    padding: 0;
+
+}
+/*banner đầu*/
+.bannerdau {
+    position: relative;
+    width: 100%;
+    height: 450px;
+    background: url('hinhdaidienminhhoa.jpg') center/cover no-repeat;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
+.bannerdau h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: -200px;
+    line-height: 0.1;
+}
+.bannerdau h2 {
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 0px;
+}
+/*điều hướng*/
+.dieuhuong {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.dieuhuong a {
+    text-decoration: none;
+    color: rgb(111, 109, 109);
+    font-size: 13px;
+}
+.trai {
+    display: flex;
+    align-items: left;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+.phai {
+    display: flex;
+    align-items: right;
+    margin: 0 auto;
+    margin-top: 20px; 
+}
+.dieuhuong h2 {
+    color: rgb(88, 88, 88);
+    font-size: 24px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 10px; 
+    line-height: 0.7;
+}
+
+.gachdocdh {
+    width: 1px;
+    height: 60px;
+    background-color: rgb(228, 228, 228);
+    margin-right:  10px;
+    margin-left:  10px;
+    margin-top: -25px;
+}
+/*Thông tin*/
+.thongtin {
+    display: flex;
+    justify-content: space-between;
+    background: rgb(228, 228, 228);
+    padding: 20px;
+    margin: -5px auto;
+    width: 100%;
+}
+.muctieu h3 {
+    color: #555;
+}
+
+.muctieu p {
+    color: #666;
+    line-height: 1.5;
+}
+.thongtin {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+    
+.thongtin h3 {
+    color: #555;
+}
+
+.thongtin p {
+    color: #666;
+    line-height: 1.5;
+}
+.iconmxh a{
+    margin-right: 10px;
+}
+.gachdoctt {
+    width: 1px;
+    height: 100%;
+    background-color: rgb(228, 228, 228);
+}
+/*Lý lịch*/
+.lylich {
+    display: flex;
+    gap: 40px;
+    max-width: 1200px;
+    margin: 10px auto;
+  }
+.kinhnghiem,
+.sothich,
+.hocvan {
+    flex: 1;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    min-width: 300px;
+    position: relative;
+}
+.ndhocvan h4, 
+.ndkinhnghiem h4 {
+    margin-bottom: -5px;
+}
+.ndsothich {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+.kinhnghiem h3,
+.sothich h3,
+.hocvan h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    color: #333;
+}
+.ttkinhnghiem ,
+.tthocvan ,
+.ttsothich  {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.ttkinhnghiem i,
+.tthocvan i,
+.ttsothich i {
+    font-size: 50px;
+    color: #9f9f9f;
+    margin-left: auto;
+}
+.nd {
+    font-weight: normal;
+    color: #929292;
+    font-size: 16px;
+    margin-left: 15px;
+}
+.ngay {
+    margin-left: 15px;
+    font-weight: normal;
+    color: #929292;
+    font-size: 14px;
+}
+.trangthai {
+    font-size: 12px;
+    color: rgb(241, 241, 241);
+    font-style: italic;
+    padding: 2px 8px;
+    background-color: #00c3ff;
+    border-radius: 8px;
+}
+.cham {
+    color: rgb(62, 203, 213);
+    font-size: 20px;
+    margin-top: -25px;
+    font-weight: bold;
+}
+/*Chứng chỉ*/
+.chungchi {
+    margin: auto;
+    padding: 20px 0;
+    background: rgb(228, 228, 228);
+}
+
+.chungchi h3 {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-left: 160px;
+}
+.ltw,
+.ltjs {
+    display: flex;
+    margin-left: 160px;
+    margin-bottom: 10px;
+}
+.chungchi img {
+    width: 150px;
+    height: auto;
+    object-fit: cover;
+    border-radius: 8px;
+}
+.ttcc {
+    margin-left: 40px;
+    margin-top: -20px;
+}
+.chungchi h4 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+.chungchi p {
+    font-size: 14px;
+    color: #666;
+    margin: 2px 0;
+}
+.gach-ngang {
+    width: 1200px;
+    height: 0.5px;
+    background-color: rgb(255, 166, 0); 
+    margin: 20px auto;
+}
+/*Dự án*/
+.duan {
+    margin: 30px auto;
+    padding: 20px;
+    background: #fff;
+    margin-left: 150px;
+}
+.qltc h3 {
+    font-size: 22px;
+    font-weight: bold;
+    color: #00f2ff;
+    margin-bottom: 10px;
+}
+.qltc p {
+    font-size: 16px;
+    color: #333;
+    line-height: 1.5;
+    margin: 5px 0;
+}
+
+.qltc strong {
+    color: #00d0ff;
+}
+/*footer*/
+.footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(228, 228, 228);
+    padding: 20px;
+}
+.icon {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 20px;
+    font-size: 14px;
+    color: #666;
+}
+.icon a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #3ecbd5;
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.3s;
+}
+
+.icon a:hover {
+    background-color: #2aa8b7;
+}
+
+
